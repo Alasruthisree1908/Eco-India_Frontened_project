@@ -1,0 +1,529 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #001f3f; /* Dark blue */
+    color: white;
+    padding: 10px 0; /* Decreased padding for a shorter height */
+    text-align: center;
+}
+
+header .logo {
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 5px; /* Reduced margin for a compact look */
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white; /* Title color set to white */
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #f1faee;
+}
+
+/* Hero Section */
+.hero {
+    background: url('img.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full height of the viewport */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.explore-btn {
+    padding: 15px 30px;
+    background-color: #1c054c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.explore-btn:hover {
+    background-color: #251057;
+}
+
+/* Categories Section */
+.categories {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.categories h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #29093c; /* Ensure this color contrasts with the background */
+}
+
+.category-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    background-color: #fff;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category-card img {
+    width: 100%;
+    height: 300px; /* Set uniform height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.category-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #001f3f; /* Set to dark blue for visibility */
+}
+
+.category-card p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    text-decoration: none;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    background-color: #431862;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+    background-color: #e9f5f2;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #201a51;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-values {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ .about-values h3 {
+    color: #1f1f47; /* Dark color for headings */
+}
+
+.about-values ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left; /* Align list items to the left */
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #e8f5e9; /* Light green background */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Darker text for headers */
+}
+
+.contact p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #444; /* Darker paragraph text */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px; /* Set a fixed height for the textarea */
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #2a9d8f; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #21867c; /* Darker shade on hover */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.about-us {
+    padding: 60px 20px;
+    background-color: #e9f5f2;
+    text-align: center;
+    color: #333;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #201a51;
+}
+
+.about-us h3 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 15px;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.about-us ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.call-to-action {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.explore-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #1c054c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.explore-btn:hover {
+    background-color: #251057;
+}
+
+
+/* Footer */
+footer {
+    background-color: #320a58;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 2em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .category-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .explore-btn {
+        font-size: 1.1em;
+    }
+
+    .categories h2 {
+        font-size: 2em;
+    }
+
+    .about-us h2 {
+        font-size: 2em;
+    }
+
+    .contact h2 {
+        font-size: 2em;
+    }
+}
+
+
+
+
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background color */
+    color: #333; /* Darker text for better contrast */
+}
+
+/* Headings Styling */
+h1, h2 {
+    color: #2c3e50; /* Darker headings for better readability */
+    margin-bottom: 10px;
+    text-align: center; /* Center headings */
+}
+
+p {
+    line-height: 1.6;
+    color: #444; /* Darker paragraph text */
+    text-align: justify; /* Align text for a cleaner look */
+    margin: 0 auto;
+    max-width: 800px; /* Limit text width for readability */
+}
+
+/* Main Sections - Center Alignment and Padding */
+.hill-stations, .beaches-islands, .heritage-sites,.wildlife-parks, .spiritual-gateways, .thrill-seekers {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e8f5e9; /* Light green background */
+    color: #2c3e50;
+    margin: 0 auto; /* Center section horizontally */
+}
+
+/* General Section Headers */
+.hill-stations h1, .beaches-islands h1, .heritage-sites, .wildlife-parks h1, .spiritual-gateways h1, .thrill-seekers h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hill-stations p, .beaches-islands p, .heritage-sites p , .wildlife-parks p, .spiritual-gateways p, .thrill-seekers p{
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+/* Content Section Styling - Max Width and Centering */
+section[class$="-details"] {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin: 40px auto; /* More spacing between sections */
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Ensure text aligns to the left for better readability */
+}
+
+/* Image Styling - Centered and Uniform */
+section img {
+    display: block;
+    margin: 0 auto 15px; /* Center image */
+    width: 100%;
+    height: 300px;  /* Set uniform height */
+    object-fit: top;
+    border-radius: 8px;
+}
+
+/* Headings Inside Sections */
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Color-coded Content Sections */
+.ooty-reasons, .manali-reasons, .munnar-reasons,.kodaikanal-reasons,.coorg-reasons 
+.goa-reasons, .andaman-reasons, .pondicherry-reasons, .alleppey-reasons, .maldives-reason 
+.taj-mahal-reasons, .hampi-reasons, .qutub-minar-reasons, .ajanta-ellora-reasons
+.jim-corbett-reasons, .kaziranga-reasons, .periyar-reasons, .gir-reasons .keoladeo-reasons
+.tirupati-reasons,.arunachalam-reasons,.varanasi-reasons,.amritsar-reasons,.haridwar-reasons
+.trekking-reasons,.paragliding-reasons, .skiing-reasons, .scuba-diving-reasons{
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left; /* Left-align text for better structure */
+}
+
+/* Individual Section Colors */
+.ooty-reasons { background-color: #e3f2fd; }
+.manali-reasons { background-color: #ffebee; }
+.munnar-reasons { background-color: #e8f5e9; }
+.kodaikanal-reasons{background-color: aquamarine;}
+.coorg-reasons{background-color: #8fcdff;}
+.goa-reasons { background-color: #ffe0b2; }
+.andaman-reasons { background-color: #bbdefb; }
+.pondicherry-reasons { background-color: #fff9c4; }
+.alleppey-reasons { background-color: #e8f5e9; }
+.maldives-reason{background-color: #a1d0f5;}
+.taj-mahal-reasons{ background-color: aliceblue;}
+.hampi-reasons{background-color:#ebe2e6;}
+.qutub-minar-reasons{background-color:#f1faee ;}
+.ajanta-ellora-reasons{background-color: #a9a790;}
+.jim-corbett-reasons{background-color: #e4d745;}
+.kaziranga-reasons{background-color: #f3eded;}
+.periyar-reasons{background-color: #afaacc;}
+.gir-reasons{background-color: #c2e195;}
+.keoladeo-reasons{background-color: #3da4f8;}
+.tirupati-reasons{background-color: #e4d745;}
+.arunachalam-reasons{background-color: #8d8d8d;}
+.varanasi-reasons{background-color: #a9a790;}
+.amritsar-reasons{background-color: gold;}
+.haridwar-reasons{background-color: #ffe0b2;}
+.trekking-reasons{background-color: #84dfbc;}
+.paragliding-reasons{background-color: #b0c2d3;}
+.skiing-reasons{background-color: #ded6e8;} 
+.scuba-diving-reasons{background-color: #8fcdff;}
+
+
+/* Lists for Attractions and Reasons */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px; /* Indent list items */
+}
+
+li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Best Time to Visit Section */
+.best-time-to-visit ul {
+    margin-left: 20px;
+}
+
+.best-time-to-visit {
+    margin-top: 20px;
+}
+
+/* Best Time to Visit Colors */
+.best-time-to-visit p {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    section[class$="-details"] {
+        padding: 20px;
+        margin: 20px auto; /* Adjust margin for smaller screens */
+    }
+
+    .hill-stations h1, .beaches-islands h1, .heritage-sites {
+        font-size: 2rem;
+    }
+    
+    ul {
+        margin-left: 10px;
+    }
+}
