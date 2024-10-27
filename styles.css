@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #001f3f; /* Dark blue */
+    background-color: #001f3f; 
     color: white;
     padding: 10px 0; 
     text-align: center;
@@ -375,7 +375,7 @@ p {
     margin: 0 auto; 
 }
 
-.hill-stations h1, .beaches-islands h1, .heritage-sites, .wildlife-parks h1, .spiritual-gateways h1, .thrill-seekers h1 {
+.hill-stations h1, .beaches-islands h1, .heritage-sites h1, .wildlife-parks h1, .spiritual-gateways h1, .thrill-seekers h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
