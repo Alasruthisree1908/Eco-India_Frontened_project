@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +11,10 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background-color: #001f3f; /* Dark blue */
     color: white;
-    padding: 10px 0; /* Decreased padding for a shorter height */
+    padding: 10px 0; 
     text-align: center;
 }
 
@@ -27,7 +25,7 @@ header .logo {
 
 header nav ul {
     list-style-type: none;
-    margin-top: 5px; /* Reduced margin for a compact look */
+    margin-top: 5px; 
 }
 
 header nav ul li {
@@ -36,7 +34,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white; /* Title color set to white */
+    color: white; 
     text-decoration: none;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -46,10 +44,9 @@ header nav ul li a:hover {
     color: #f1faee;
 }
 
-/* Hero Section */
 .hero {
     background: url('img.jpg') no-repeat center center/cover;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; 
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -84,7 +81,6 @@ header nav ul li a:hover {
     background-color: #251057;
 }
 
-/* Categories Section */
 .categories {
     text-align: center;
     padding: 60px 20px;
@@ -94,7 +90,7 @@ header nav ul li a:hover {
 .categories h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
-    color: #29093c; /* Ensure this color contrasts with the background */
+    color: #29093c; 
 }
 
 .category-grid {
@@ -115,8 +111,8 @@ header nav ul li a:hover {
 
 .category-card img {
     width: 100%;
-    height: 300px; /* Set uniform height for images */
-    object-fit: cover; /* Maintain aspect ratio */
+    height: 300px; 
+    object-fit: cover; 
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -124,7 +120,7 @@ header nav ul li a:hover {
 .category-card h3 {
     font-size: 1.8em;
     margin-bottom: 15px;
-    color: #001f3f; /* Set to dark blue for visibility */
+    color: #001f3f; 
 }
 
 .category-card p {
@@ -145,7 +141,6 @@ header nav ul li a:hover {
     background-color: #431862;
 }
 
-/* About Us Section */
 .about-us {
     padding: 50px 20px;
     background-color: #e9f5f2;
@@ -166,53 +161,52 @@ header nav ul li a:hover {
 .about-values {
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff; /* White background for contrast */
+    background-color: #ffffff; 
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
  .about-values h3 {
-    color: #1f1f47; /* Dark color for headings */
+    color: #1f1f47; 
 }
 
 .about-values ul {
     list-style-type: disc;
     padding-left: 20px;
-    text-align: left; /* Align list items to the left */
+    text-align: left; 
 }
 
-/* Contact Section */
 .contact {
     padding: 50px 20px;
-    background-color: #e8f5e9; /* Light green background */
+    background-color: #e8f5e9; 
     text-align: center;
 }
 
 .contact h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #2c3e50; /* Darker text for headers */
+    color: #2c3e50; 
 }
 
 .contact p {
     font-size: 1.2em;
     max-width: 800px;
     margin: 0 auto 30px;
-    color: #444; /* Darker paragraph text */
+    color: #444; 
 }
 
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff; /* White background for contrast */
+    background-color: #ffffff; 
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
     margin-bottom: 20px;
-    text-align: left; /* Align labels and inputs to the left */
+    text-align: left; 
 }
 
 label {
@@ -231,12 +225,12 @@ textarea {
 }
 
 textarea {
-    height: 100px; /* Set a fixed height for the textarea */
+    height: 100px; 
 }
 
 .submit-btn {
     padding: 10px 20px;
-    background-color: #2a9d8f; /* Button color */
+    background-color: #2a9d8f; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -244,7 +238,7 @@ textarea {
 }
 
 .submit-btn:hover {
-    background-color: #21867c; /* Darker shade on hover */
+    background-color: #21867c; 
 }
 
 html {
@@ -308,8 +302,6 @@ html {
     background-color: #251057;
 }
 
-
-/* Footer */
 footer {
     background-color: #320a58;
     color: white;
@@ -321,7 +313,6 @@ footer p {
     font-size: 2em;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .category-grid {
         flex-direction: column;
@@ -354,43 +345,36 @@ footer p {
     }
 }
 
-
-
-
-/* General Page Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Light background color */
-    color: #333; /* Darker text for better contrast */
+    background-color: #f5f5f5; 
+    color: #333; 
 }
 
-/* Headings Styling */
 h1, h2 {
-    color: #2c3e50; /* Darker headings for better readability */
+    color: #2c3e50; 
     margin-bottom: 10px;
-    text-align: center; /* Center headings */
+    text-align: center; 
 }
 
 p {
     line-height: 1.6;
-    color: #444; /* Darker paragraph text */
-    text-align: justify; /* Align text for a cleaner look */
+    color: #444;
+    text-align: justify; 
     margin: 0 auto;
-    max-width: 800px; /* Limit text width for readability */
+    max-width: 800px; 
 }
 
-/* Main Sections - Center Alignment and Padding */
 .hill-stations, .beaches-islands, .heritage-sites,.wildlife-parks, .spiritual-gateways, .thrill-seekers {
     text-align: center;
     padding: 50px 20px;
-    background-color: #e8f5e9; /* Light green background */
+    background-color: #e8f5e9; 
     color: #2c3e50;
-    margin: 0 auto; /* Center section horizontally */
+    margin: 0 auto; 
 }
 
-/* General Section Headers */
 .hill-stations h1, .beaches-islands h1, .heritage-sites, .wildlife-parks h1, .spiritual-gateways h1, .thrill-seekers h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -404,29 +388,26 @@ p {
     text-align: justify;
 }
 
-/* Content Section Styling - Max Width and Centering */
 section[class$="-details"] {
     background-color: #ffffff;
     padding: 30px 20px;
-    margin: 40px auto; /* More spacing between sections */
+    margin: 40px auto; 
     max-width: 800px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Ensure text aligns to the left for better readability */
+    text-align: left; 
 }
 
-/* Image Styling - Centered and Uniform */
 section img {
     display: block;
-    margin: 0 auto 15px; /* Center image */
+    margin: 0 auto 15px; 
     width: 100%;
-    height: 300px;  /* Set uniform height */
+    height: 300px;  
     object-fit: top;
     border-radius: 8px;
 }
 
-/* Headings Inside Sections */
 section h1 {
     font-size: 2rem;
     margin-bottom: 15px;
@@ -439,7 +420,6 @@ section h2 {
     color: #2c3e50;
 }
 
-/* Color-coded Content Sections */
 .ooty-reasons, .manali-reasons, .munnar-reasons,.kodaikanal-reasons,.coorg-reasons 
 .goa-reasons, .andaman-reasons, .pondicherry-reasons, .alleppey-reasons, .maldives-reason 
 .taj-mahal-reasons, .hampi-reasons, .qutub-minar-reasons, .ajanta-ellora-reasons
@@ -449,10 +429,9 @@ section h2 {
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    text-align: left; /* Left-align text for better structure */
+    text-align: left; 
 }
 
-/* Individual Section Colors */
 .ooty-reasons { background-color: #e3f2fd; }
 .manali-reasons { background-color: #ffebee; }
 .munnar-reasons { background-color: #e8f5e9; }
@@ -482,12 +461,10 @@ section h2 {
 .skiing-reasons{background-color: #ded6e8;} 
 .scuba-diving-reasons{background-color: #8fcdff;}
 
-
-/* Lists for Attractions and Reasons */
 ul {
     margin-left: 20px;
     margin-bottom: 20px;
-    padding-left: 20px; /* Indent list items */
+    padding-left: 20px; 
 }
 
 li {
@@ -495,7 +472,6 @@ li {
     color: #444;
 }
 
-/* Best Time to Visit Section */
 .best-time-to-visit ul {
     margin-left: 20px;
 }
@@ -504,7 +480,6 @@ li {
     margin-top: 20px;
 }
 
-/* Best Time to Visit Colors */
 .best-time-to-visit p {
     background-color: #f9f9f9;
     padding: 10px;
@@ -512,11 +487,10 @@ li {
     color: #333;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
     section[class$="-details"] {
         padding: 20px;
-        margin: 20px auto; /* Adjust margin for smaller screens */
+        margin: 20px auto; 
     }
 
     .hill-stations h1, .beaches-islands h1, .heritage-sites {
